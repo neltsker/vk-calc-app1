@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90b49bae088c05da0a7fbbe61dea6640",
+    "revision": "02fbef76bf451aa2189c0a4774ab0610",
     "url": "/vk-calc-app1/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vk-calc-app1/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "4e5b1f8263cd316e9fa0",
+    "revision": "dc825c8df1a1e8edb23f",
     "url": "/vk-calc-app1/static/css/main.e04366c9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vk-calc-app1/static/js/2.bbfea624.chunk.js"
   },
   {
-    "revision": "4e5b1f8263cd316e9fa0",
-    "url": "/vk-calc-app1/static/js/main.e13ce490.chunk.js"
+    "revision": "dc825c8df1a1e8edb23f",
+    "url": "/vk-calc-app1/static/js/main.87849c5b.chunk.js"
   },
   {
     "revision": "ae74bbb5ed751ef068f7",
