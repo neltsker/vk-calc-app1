@@ -1,0 +1,40 @@
+.consentText {
+    font-size: 12pt;
+    vertical-align: middle;
+}
+
+.consentInput {
+    display: none;
+}
+
+.consentInputLabel {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #e5ecf1;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.consentInputLabel:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: url(../media/check.png) no-repeat 50% 50%;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.consentInput:checked + .consentInputLabel:after {
+    opacity: 1;
+}

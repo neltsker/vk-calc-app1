@@ -1,0 +1,24 @@
+.СongratulationFormSell {
+    position: fixed;
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    opacity: 0.7;
+    text-align: center;
+}
+
+
+.Сongratulation {
+    display: inline-block;
+    background-color: white;
+    z-index: 101;
+    opacity: 1;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 150px;
+}

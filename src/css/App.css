@@ -1,0 +1,83 @@
+.pointer {
+    cursor: pointer;
+}
+
+
+/*Оболочка инпутов с картинками*/
+.inputContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inputTextContainer {
+    display: inline-block;
+}
+
+.textLabelRadioInput {
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+
+/*настройки инпутов с картинкой*/
+.page2ImgShell {
+    padding: 10px;
+    width: 290px;
+}
+
+.page2Img {
+    width: 100%;
+}
+
+
+/*Оболочка инпутов второй страницы с размерами*/
+.inputContainerSize {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inputContainerSizeImgAС {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/*Импуты без картинок*/
+.inputTextPage2 {
+    border: 2px solid #efd630;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    height: 34px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: block;
+    margin: auto;
+    width: 57px;
+}
+
+.inputTextPage2Top {
+    margin-bottom: 10px;
+}
+
+.textPage2 {
+    color: #444343;
+    font-size: 15px;
+    font-family: GothamPro;
+    line-height: 24px;
+    text-align: center;
+}
+
+.inputSell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    height: 250px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+
+.buttonGo {
+    display: block;
+    width: 250px;
+    margin: 20px auto;
+    background-color: green;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    text-shadow: rgba(255, 255, 255, 0.2) 1px 1px 0;
+    position: relative;
+    padding: 10px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0px 1px 0px #3CB371, 0px 3px 0px 0px #008000, 0px 10px 5px #999;
+    -moz-box-shadow: inset 0px 1px 0px #3CB371, 0px 3px 0px 0px #008000, 0px 10px 5px #999;
+    -o-box-shadow: inset 0px 1px 0px #3CB371, 0px 3px 0px 0px #008000, 0px 10px 5px #999;
+    box-shadow: inset 0px 1px 0px #3CB371, 0px 2px 0px 0px #008000, 0px 10px 5px #999;
+}
+
+.buttonGo:active {
+    top: 3px;
+    -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 3px 3px #999;
+    -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 3px 3px #999;
+    -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 3px 3px #999;
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 3px 3px #999;
+}
+
+.buttonGo:hover {
+    color: white;
+}
+
+.buttonGo:disabled {
+    background-color: #999;
+    -webkit-box-shadow: inset 0px 1px 0px white, 0px 3px 0px 0px #999, 0px 10px 5px #999;
+    -moz-box-shadow: inset 0px 1px 0px white, 0px 3px 0px 0px #999, 0px 10px 5px #999;
+    -o-box-shadow: inset 0px 1px 0px white, 0px 3px 0px 0px #999, 0px 10px 5px #999;
+    box-shadow: inset 0px 1px 0px white, 0px 2px 0px 0px #999, 0px 10px 5px #999;
+
+}
+
+.btn {
+    display: block !important;
+}
